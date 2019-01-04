@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="btnGrSize">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+      <Rectangle value="[200, 200, 0, 0]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lblTitle" max="32767" attributes="0"/>
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="lblTitle" min="-2" pref="51" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jScrollPane1" min="-2" pref="369" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="btnExit" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="lblPayMeth" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="lblPic1" min="-2" pref="369" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Component id="lblSize" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="179" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="rdoPers" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="rdoSmall" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="rdoMed" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="rdoLarge" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="rdoXLarge" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="cbPepperoni" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="cbSausage" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="cbBacon" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="cbHam" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="cbBeef" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="btnConfirm" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="btnReset" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="cbGPep" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="cbBOliv" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="cbOnion" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="cbRPep" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="cbChicken" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="cbJalapeno" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="cbMush" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="cbPineapple" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="cbStuffed" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="cbXCheese" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Component id="lblToppings" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="cboPresets" min="-2" pref="134" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblDebit" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="btnCash" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="btnCredit" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                                          <Component id="lblNumPad" min="-2" pref="149" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblSize" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblToppings" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="rdoPers" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbPepperoni" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbGPep" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbJalapeno" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="rdoSmall" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbSausage" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbRPep" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbMush" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="rdoMed" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbBacon" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbOnion" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbPineapple" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="rdoLarge" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbHam" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbBOliv" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbStuffed" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="rdoXLarge" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbBeef" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbChicken" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbXCheese" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnConfirm" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnReset" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cboPresets" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="lblPic1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="lblPayMeth" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="btnCredit" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                  <Component id="btnCash" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="btnExit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnBack" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblDebit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="lblNumPad" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblPic1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="E:\Mario-luigi-star.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="This is where a supposedly masterpiece of photoshop logos goes here after I create it, but I never had time :("/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="txtADisplay">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+                <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[100, 400]"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblSize">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Select a Size:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rdoPers">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="btnGrSize"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Personal"/>
+            <Property name="toolTipText" type="java.lang.String" value="Pizza Cost: $3.00 || 25&#xa2; / topping"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rdoPersActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rdoSmall">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="btnGrSize"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Small"/>
+            <Property name="toolTipText" type="java.lang.String" value="Pizza Cost: $5.00 || 50&#xa2; / topping"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rdoSmallActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rdoMed">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="btnGrSize"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Medium"/>
+            <Property name="toolTipText" type="java.lang.String" value="Pizza Cost: $8.00 || 75&#xa2; / topping"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rdoMedActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rdoLarge">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="btnGrSize"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Large"/>
+            <Property name="toolTipText" type="java.lang.String" value="Pizza Cost: $10.00 || $1.00 / topping"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rdoLargeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblToppings">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Choose Your Toppings"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbPepperoni">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pepperoni"/>
+            <Property name="toolTipText" type="java.lang.String" value="We use only the finest pepperoni that cooks nicely, but doesn&apos;t leave the pizza overloaded with puddles of grease due to our superior cooking techniques achieved using our signature Flower-Power Fireballs."/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbPepperoniActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbSausage">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Italian Sausage"/>
+            <Property name="toolTipText" type="java.lang.String" value="This is actually just the same prime meat used for our pepperoni slice except with a little something extra to spice it up and give it some intense flavour."/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbSausageActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbBacon">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bacon Crumble"/>
+            <Property name="toolTipText" type="java.lang.String" value="Bacon goes with EVERYTHING! Seriously, try it!"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbBaconActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbHam">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ham"/>
+            <Property name="toolTipText" type="java.lang.String" value="The most delectable slabs of meat cut straight from only the rarest and most valuable enemies -- Trade Secret ;)"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbHamActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbGPep">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Green Peppers"/>
+            <Property name="toolTipText" type="java.lang.String" value="Deep green like Luigi&apos;s cap, these are fresh everyday from Daisy&apos;s Garden."/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbGPepActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbRPep">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Red Peppers"/>
+            <Property name="toolTipText" type="java.lang.String" value="Fiery red like Mario&apos;s cap, these are fresh everyday from Peach&apos;s Garden."/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbRPepActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbOnion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Onions"/>
+            <Property name="toolTipText" type="java.lang.String" value="The sweetest onions you can find in this galaxy, courtesy of our good friend, Captain Toad."/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbOnionActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbBOliv">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Black Olives"/>
+            <Property name="toolTipText" type="java.lang.String" value="Nothing special about these, they&apos;re just normal black olives raised by wild Bullet Bills."/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbBOlivActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbJalapeno">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Jalape&#xf1;o Peppers"/>
+            <Property name="toolTipText" type="java.lang.String" value="The very same Jalape&#xf1;os that were used to make the Legendary Superspicy Curry."/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbJalapenoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbMush">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mushrooms"/>
+            <Property name="toolTipText" type="java.lang.String" value="Delicous, fresh mushrooms harvested daily from our very own Goomba Farm just outside the Castle."/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbMushActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbPineapple">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pineapple"/>
+            <Property name="toolTipText" type="java.lang.String" value="The highest quality of exotic juicy fruits imported from the far reached of Cheep-Cheep Island."/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbPineappleActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbStuffed">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Stuffed Crust"/>
+            <Property name="toolTipText" type="java.lang.String" value="What is there to say? The crust is jam-packed full of cheese! [$3.00 extra -- Only possible for L or XL pizza]"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbStuffedActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rdoXLarge">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="btnGrSize"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Extra Large"/>
+            <Property name="toolTipText" type="java.lang.String" value="Pizza Cost: $12.00 || $1.25 / topping"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rdoXLargeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbBeef">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ground Beef"/>
+            <Property name="toolTipText" type="java.lang.String" value="Made by grinding down a variety of Koopa bodies to make the most exiquisite ground beef you&apos;ve ever tasted."/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbBeefActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbChicken">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Chicken"/>
+            <Property name="toolTipText" type="java.lang.String" value="The most delecate and tender chicken meat we have in stock, surprisingly made from the meat of baby Bloopers."/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbChickenActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbXCheese">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Extra Cheese"/>
+            <Property name="toolTipText" type="java.lang.String" value="cheese... Cheese... CHEESE! More is never enough!"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbXCheeseActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnExit">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Exit"/>
+            <Property name="toolTipText" type="java.lang.String" value="Thank you for staying loyal to Mario &amp; Luigi&apos;s Starpowered Pizzeria!"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExitActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnReset">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Reset"/>
+            <Property name="toolTipText" type="java.lang.String" value="Made a mistake? No problem -- just Click Here"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnResetActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnConfirm">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Confirm Order"/>
+            <Property name="toolTipText" type="java.lang.String" value="Finally made up your mind?"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnConfirmActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPayMeth">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Select Your Method of Payment"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCredit">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Credit"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCash">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cash"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="lblDebit">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Debit"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnBack">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Back"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBackActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNumPad">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Number Pad"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cboPresets">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="7">
+                <StringItem index="0" value="Custom"/>
+                <StringItem index="1" value="Hawaiian"/>
+                <StringItem index="2" value="Canadian"/>
+                <StringItem index="3" value="Meat Lover&apos;s"/>
+                <StringItem index="4" value="Super Supreme"/>
+                <StringItem index="5" value="Deluxe"/>
+                <StringItem index="6" value="Random"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Choose from some of our favourite recip&#xe9;s OR have a blast creating your own!"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cboPresetsActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Zorque" size="46" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="33" red="0" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Mario &amp; Luigi&apos;s Starpowered Pizzeria"/>
+        <Property name="toolTipText" type="java.lang.String" value="This was also supposed to be like the picture but a mini logo on both sides of the title version :("/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
